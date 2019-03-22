@@ -8,33 +8,71 @@ int main(void){
 
     while(1){
 
-        if(infra() == 6){
+        if(dist() < 40 && infra() == 0){
+            frente();
+            frente();
+            tras();
+        }
+        
+        if(infra() == 7){
             tras();
             esquerda();
             parar();
         }
 
-        if(infra() == 7){
+        if(infra() == 6){
             frente();
             parar();
         }
 
-        if(dist() > 15){
+        else if(dist() > 20){
             parar();
             esquerda();
             parar();
-            if(dist() > 15){
-                direita();
-                direita();
+            
+            if(infra() == 7){
+            tras();
+            esquerda();
+            parar();
+            }
+
+            if(infra() == 6){
+                frente();
                 parar();
-                if(dist() > 15){
+            }
+            
+            if(dist() > 20){
+                
+                if(infra() == 7){
+                    tras();
                     esquerda();
                     parar();
                 }
 
-        if(dist() < 15 && infra() == 0){
-            frente();
-            parar();
+                if(infra() == 6){
+                    frente();
+                    parar();
+                }
+                
+                direita();
+                direita();
+                parar();
+            
+            if(dist() > 20){
+            
+                if(infra() == 7){
+                    tras();
+                    esquerda();
+                    parar();
+                }
+
+                if(infra() == 6){
+                    frente();
+                    parar();
+                }
+            
+                esquerda();
+                parar();
                 }
             }
         }    
