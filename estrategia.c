@@ -1,8 +1,8 @@
 #include<avr/io.h>
 #include<util/delay.h>
-#include"motor.h"
-#include"infra.h"
-#include"ultra.h"
+#include"motor.c"
+#include"infra.c"
+#include"ultra.c"
 
 int main(void){
 
@@ -13,7 +13,7 @@ int main(void){
             frente();
             tras();
         }
-        
+
         if(infra() == 7){
             tras();
             esquerda();
@@ -29,7 +29,7 @@ int main(void){
             parar();
             esquerda();
             parar();
-            
+
             if(infra() == 7){
             tras();
             esquerda();
@@ -40,9 +40,9 @@ int main(void){
                 frente();
                 parar();
             }
-            
+
             if(dist() > 20){
-                
+
                 if(infra() == 7){
                     tras();
                     esquerda();
@@ -53,13 +53,13 @@ int main(void){
                     frente();
                     parar();
                 }
-                
+
                 direita();
                 direita();
                 parar();
-            
+
             if(dist() > 20){
-            
+
                 if(infra() == 7){
                     tras();
                     esquerda();
@@ -70,11 +70,11 @@ int main(void){
                     frente();
                     parar();
                 }
-            
+
                 esquerda();
                 parar();
                 }
             }
-        }    
+        }
     }
 }
