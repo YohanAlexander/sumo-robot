@@ -15,9 +15,9 @@ float dist(void){
 
     // Trigger
     PORTB = 0b00000000;
-    delayMicroseconds(2);
+    _delay_ms(2);
     PORTB = 0b00100000;
-    delayMicroseconds(10);
+    _delay_ms(10);
     PORTB = 0b00000000;
 
     // detectar eco sem uso de biblioteca

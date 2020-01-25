@@ -7,7 +7,7 @@ int infra(void){
   unsigned char pino7;
   unsigned char pino6;
   DDRD = DDRD|0b00111100;
-  Serial.begin(9600);
+  //Serial.begin(9600);
 
   while(1){
 
