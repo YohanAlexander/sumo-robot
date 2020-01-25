@@ -1,8 +1,8 @@
 #include<avr/io.h>
 #include<util/delay.h>
-#include"motor.c"
-#include"infra.c"
-#include"ultra.c"
+#include"motor.h"
+#include"infra.h"
+#include"ultra.h"
 
 int main(void){
 
