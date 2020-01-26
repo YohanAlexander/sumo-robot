@@ -1,6 +1,20 @@
-# Sumô Robô
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/yohanalexander/sumo-robot">
+    <img src="dojo.png" alt="Logo" width="80" height="80">
+  </a>
 
-O projeto do robô sumo foi desenvolvido como forma de avaliação das habilidades com a pinagem de sistemas embarcados, em um formato competitivo que requer pensamento criativo para a implementação da melhor estratégia de combate.
+  <h3 align="center">Sumô Robô</h3>
+
+  <p align="center">
+    Campeonato de sumô entre robôs!
+    <br />
+
+<!-- ABOUT THE PROJECT -->
+## Sobre o projeto
+
+O projeto do robô sumô foi desenvolvido como forma de avaliação das habilidades com a pinagem de sistemas embarcados, em um formato competitivo que requer pensamento criativo para a implementação da melhor estratégia de combate.
 
 O código foi projetado em linguagem C com acesso direto aos registradores do Arduino Uno, que foram mapeados diretamente em:
 
@@ -9,6 +23,11 @@ O código foi projetado em linguagem C com acesso direto aos registradores do Ar
 * 1 sensor ultrassônico HC-SR04
 * 1 driver motor ponte-H L298N 
 
-O robô foi carinhosamente apelidado de WALL·E
+É possível visualizar o mapeamento da pinagem no `Arduino` pelo seguinte diagrama de conexões:
 
-![wall-e](https://github.com/YohanAlexander/sumo-robot/blob/master/wall-e.png)
+![wall-e](conexoes.png)
+
+O robô foi carinhosamente apelidado de `WALL·E`.
+
+![wall-e](wall-e.png)
+
