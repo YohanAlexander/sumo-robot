@@ -2,10 +2,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/yohanalexander/sumo-robot">
-    <img src="dojo.png" alt="Logo" width="80" height="80">
+    <img src="dojo.png" alt="Logo" width="50%" height="50%">
   </a>
 
-  <h3 align="center">Sumô Robô</h3>
+  <h1 align="center">Sumô Robô</h1>
 
   <p align="center">
     Campeonato de sumô entre robôs!
