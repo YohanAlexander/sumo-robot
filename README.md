@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/yohanalexander/sumo-robot">
-    <img src="dojo.png" alt="Logo" width="50%" height="50%">
+    <img src="dojo.png" alt="Logo" width="25%" height="25%">
   </a>
 
   <h1 align="center">Sumô Robô</h1>
